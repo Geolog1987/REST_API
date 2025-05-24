@@ -1,7 +1,7 @@
-package ru.kodanev.aleksey.REST_API_CLIENTS.model;
+package ru.kodanev.aleksey.REST_API_CLIENTS.service;
 
 import org.springframework.stereotype.Service;
-import ru.kodanev.aleksey.REST_API_CLIENTS.service.ClientService;
+import ru.kodanev.aleksey.REST_API_CLIENTS.model.Client;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -55,3 +55,9 @@ public class ClientServiceImpl implements ClientService {
         return CLIENT_REPOSITORY_MAP.remove(id) != null;
     }
 }
+/*
+Аннотация @Service говорит спрингу, что данный класс является сервисом.
+Это специальный тип классов, в котором реализуется некоторая бизнес логика приложения.
+Впоследствии, благодаря этой аннотации Spring будет предоставлять нам экземпляр данного класса в местах, где это,
+нужно с помощью Dependency Injection.
+ */
