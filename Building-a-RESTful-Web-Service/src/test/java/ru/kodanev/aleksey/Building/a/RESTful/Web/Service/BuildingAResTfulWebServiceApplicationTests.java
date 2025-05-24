@@ -1,10 +1,10 @@
-package ru.kodanev.aleksey.REST_service_for_organizing_a_list_of_tasks;
+package ru.kodanev.aleksey.Building.a.RESTful.Web.Service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class BuildingAResTfulWebServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

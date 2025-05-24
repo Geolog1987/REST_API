@@ -1,13 +1,13 @@
-package ru.kodanev.aleksey.REST_service_for_organizing_a_list_of_tasks;
+package ru.kodanev.aleksey.Building.a.RESTful.Web.Service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class BuildingAResTfulWebServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(BuildingAResTfulWebServiceApplication.class, args);
 	}
 
 }
